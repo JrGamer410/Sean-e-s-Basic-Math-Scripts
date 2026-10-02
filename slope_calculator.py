@@ -1,6 +1,6 @@
 # Slope Calculator
 # Written by Sean-e on Wednesday, September 30th, 2026
-# Last updated on Thursday, October 1st, 2026
+# Last updated on Friday, October 2nd, 2026
 
 # Collect user input
 x1 = input('Enter the x of your first set of coordinates: ')
@@ -15,7 +15,10 @@ y1 = float(y1)
 y2 = float(y2)
 
 # Display the answer to the user
+ys = y2-y1
+xs = x2-x1
 print("Your answer is:")
-print(y2-y1)
+print(ys)
 print("-----")
-print(x2-x1)
+print(xs)
+print(f"Your divided answer is: {ys/xs}")
